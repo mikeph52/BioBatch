@@ -1,0 +1,148 @@
+#include <iostream>
+#include <iomanip>
+#include <cstdlib>
+#include <chrono>
+#include <thread>
+
+void clear(){
+    system("clear");
+}
+
+void credits(){
+    std::cout << "Bye Bye!! mikeph_ 2024"<< std::endl;
+    std::this_thread::sleep_for(std::chrono::seconds(1));
+
+}
+
+void LB_recipe(){
+    const double TRYPTONE_PER_LITER = 10.0;
+    const double YEAST_EXTRACT_PER_LITER = 5.0;
+    const double NACL_PER_LITER = 10.0;
+    const double BACTO_AGAR = 15.0;
+
+    double volumeInML;
+
+    clear();
+
+    std::cout << "Enter the volume of the LB medium solution in mL: ";
+    std::cin >> volumeInML;
+    
+    double volumeInLiters = volumeInML / 1000.0;
+
+    double tryptone = TRYPTONE_PER_LITER * volumeInLiters;
+    double yeastExtract = YEAST_EXTRACT_PER_LITER * volumeInLiters;
+    double nacl = NACL_PER_LITER * volumeInLiters;
+    double bactoagar = BACTO_AGAR * volumeInLiters;
+
+    std::cout << std::fixed << std::setprecision(2);
+    std::cout << "For " << volumeInML << " mL of LB medium solution, you will need:" << std::endl;
+    std::cout << tryptone << " grams of Tryptone" << std::endl;
+    std::cout << yeastExtract << " grams of Yeast Extract" << std::endl;
+    std::cout << nacl << " grams of Sodium Chloride (NaCl)" << std::endl;
+    std::cout << bactoagar << " grams of Bacto-agar(For solid medium ONLY)\n\n\n" << std::endl;
+    std::cout << "Press Enter to continue";
+    std::cin.ignore();
+    std::cin.get();
+    exit(0);
+}
+
+void YPD_recipe(){
+    const double PEPTONE_PER_LITER = 10.0;
+    const double YEAST_EXTRACT_PER_LITER = 5.0;
+    const double GLUCOSE_PER_LITER = 10.0;
+    const double BACTO_AGAR = 15.0;
+
+    double volumeInML;
+
+    clear();
+
+    std::cout << "Enter the volume of the YPD medium solution in mL: ";
+    std::cin >> volumeInML;
+    
+    double volumeInLiters = volumeInML / 1000.0;
+
+    double peptone = PEPTONE_PER_LITER * volumeInLiters;
+    double yeastExtract = YEAST_EXTRACT_PER_LITER * volumeInLiters;
+    double glucose = GLUCOSE_PER_LITER * volumeInLiters;
+    double bactoagar = BACTO_AGAR * volumeInLiters;
+
+    std::cout << std::fixed << std::setprecision(2);
+    std::cout << "For " << volumeInML << " mL of YPD medium solution, you will need:" << std::endl;
+    std::cout << peptone << " grams of Peptone" << std::endl;
+    std::cout << yeastExtract << " grams of Yeast Extract" << std::endl;
+    std::cout << glucose << " grams of Glucose" << std::endl;
+    std::cout << bactoagar << " grams of Bacto-agar(For solid medium ONLY)\n\n\n" << std::endl;
+    std::cout << "Press Enter to continue";
+    std::cin.ignore();
+    std::cin.get();
+    exit(0);
+}
+
+void PDA_recipe(){
+    const double POTATO_PER_LITER = 4.0;
+    const double DEXTROSE_PER_LITER = 20.0;
+    const double AGAR = 15.0;
+
+    double volumeInML;
+
+    clear();
+
+    std::cout << "Enter the volume of the PDA medium solution in mL: ";
+    std::cin >> volumeInML;
+    
+    double volumeInLiters = volumeInML / 1000.0;
+
+    double potato = POTATO_PER_LITER * volumeInLiters;
+    double dextrose = DEXTROSE_PER_LITER * volumeInLiters;
+    double agar = AGAR * volumeInLiters;
+
+    std::cout << std::fixed << std::setprecision(2);
+    std::cout << "For " << volumeInML << " mL of PDA medium solution, you will need:" << std::endl;
+    std::cout << potato<< " grams of Potato extract" << std::endl;
+    std::cout << dextrose << " grams of Dextrose" << std::endl;
+    std::cout << agar << " grams of Agar(For solid medium ONLY)\n\n\n" << std::endl;
+    std::cout << "Press Enter to continue";
+    std::cin.ignore();
+    std::cin.get();
+    exit(0);
+
+}
+
+void menu(){
+    clear();
+    std::cout << "BioBatch 0.9 by mikeph_\n";
+    std::cout << "Select the medium: a)LB, b)YPD, c)PDA\n";
+    std::cout << "Enter 'q' to quit.\n";
+    
+    char quit = 'q';
+    char choice;
+    
+    std::cin >> choice;
+    if (choice == 'a'){
+        LB_recipe();
+    }
+    if (choice == 'b'){
+        YPD_recipe();
+    }
+    if (choice == quit){
+        clear();
+        credits();
+        exit(0);
+    }
+    if (choice == 'c'){
+        PDA_recipe();
+    }
+    else{
+        clear();
+        std::cout << "Error Code 1: Wrong Argument.\n\n\n";
+        std::cout << "Press Enter to continue";
+        std::cin.ignore();
+        std::cin.get();
+        menu();
+    }
+}
+
+int main(){
+     menu();
+     return 0;
+}
