@@ -25,7 +25,7 @@ Minor bugs fixed.
 - 0.11.0:
 Major bugs fixed. NA medium added.
 - 0.12.0:
-Minor bugs fixed. N2 medium added.
+Minor bugs fixed. N2 medium added. Help option added.
 
 
 ### Citations:
