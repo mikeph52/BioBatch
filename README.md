@@ -8,6 +8,7 @@ Growth media included:
 - YPD
 - LB
 - NA
+- N2
 
 More recipes will be added in the future.
 
@@ -23,6 +24,8 @@ More recipes will be added in the future.
 Minor bugs fixed.
 - 0.11.0:
 Major bugs fixed. NA medium added.
+-0.12.0:
+Minor bugs fixed. N2 medium added.
 
 ### Citations:
 - Pioli, P.D. (2019) Protocol: Luria-Bertani (LB) Media/Broth Recipe. Available at: https://www.med.wmich.edu/sites/default/files/Pioli_Lab_LB_Media_Recipe.pdf. 
