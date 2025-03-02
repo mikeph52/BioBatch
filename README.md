@@ -19,7 +19,7 @@ More recipes will be added in the future.
 > Always double-check the quantities before application.
 
 
-### Version Log:
+### Changelog:
 - 0.10.3:
 Minor bugs fixed.
 - 0.11.0:
