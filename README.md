@@ -10,6 +10,7 @@ Growth media included:
 - NA
 - N2
 - SDA
+- TB
 
 More recipes will be added in the future.
 
@@ -21,6 +22,8 @@ More recipes will be added in the future.
 
 
 ### Changelog:
+- 0.14.0:
+TB medium added. Documentation errors fixed.
 - 0.13.0:
 Minor bugs fixed. SDA medium added. Documentation for each media added.
 - 0.12.0:
