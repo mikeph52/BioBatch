@@ -3,6 +3,8 @@
 BioBatch is a growth medium calculator for cell proliferation, written in C/C++ based on popular growth media recipes like PDA, LB, YPD etc. 
 For Windows, Ubuntu/Debian and MacOS 11.7.10 and above.
 
+<img width="762" alt="Image" src="https://github.com/user-attachments/assets/e1d9adfa-bf01-41ea-87f2-d5b5df16ddf0" />
+
 Growth media included:
 - PDA
 - YPD
