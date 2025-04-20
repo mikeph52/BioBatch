@@ -11,6 +11,7 @@ Growth media included:
 - N2
 - SDA
 - TB
+- Blood Agar
 
 More recipes will be added in the future.
 
@@ -22,6 +23,8 @@ More recipes will be added in the future.
 
 
 ### Changelog:
+- 0.15.0:
+Blood Agar medium added. Minor bugs fixed.
 - 0.14.0:
 TB medium added. Documentation errors fixed.
 - 0.13.0:
