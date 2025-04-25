@@ -25,6 +25,8 @@ More recipes will be added in the future.
 
 
 ### Changelog:
+- 0.15.2:
+(https://github.com/mikeph52/BioBatch/issues/1) Missing DLLs fixed in Windows version.
 - 0.15.0:
 Blood Agar medium added. Minor bugs fixed.
 - 0.14.0:
