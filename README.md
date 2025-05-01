@@ -16,6 +16,10 @@ Growth media included:
 - Blood Agar
 
 More recipes will be added in the future.
+- For Linux: Run "chmod +x" first(replace 0.x.x with your version).
+```
+sudo chmod +x biobatch_linux_0.x.x
+``` 
 
 > [!IMPORTANT]
 > If any bugs or wrong information are encountered, please message me at mikeph526@outlook.com
