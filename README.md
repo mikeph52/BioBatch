@@ -29,6 +29,8 @@ sudo chmod +x biobatch_linux_0.x.x
 
 
 ### Changelog:
+- 0.16.0:
+(https://github.com/mikeph52/BioBatch/issues/2) Documentation for Blood Agar fixed.
 - 0.15.2:
 (https://github.com/mikeph52/BioBatch/issues/1) Missing DLLs fixed in Windows version.
 - 0.15.0:
