@@ -16,11 +16,17 @@ Growth media included:
 - Blood Agar
 
 More recipes will be added in the future.
-- For Linux & macOS: Run "chmod +x" first(replace 0.x.x with your version).
+# For Linux & macOS:
+- Run "chmod +x" first(replace 0.x.x with your version).
 ```
 sudo chmod +x biobatch_linux_0.x.x
 ``` 
-
+- To run BioBatch natively, move it to bin folder by executing the following command:
+```
+sudo mv biobatch_macos_0.x.x /usr/local/bin/
+```
+# For Windows:
+- Move "biobatch_windows_0.x.x.exe" to C:\Windows\System32\ or add to PATH.
 > [!IMPORTANT]
 > If any bugs or wrong information are encountered, please message me at mikeph526@outlook.com
 
