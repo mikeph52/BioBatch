@@ -1,7 +1,7 @@
 # BioBatch
 
 BioBatch is a growth medium calculator for cell proliferation, written in C/C++ based on popular growth media recipes like PDA, LB, YPD etc. 
-For Windows, Ubuntu/Debian and MacOS 11.7.10 and above.
+For Windows, Linux and MacOS 11.7.10 and above.
 
 <img width="762" alt="Image" src="https://github.com/user-attachments/assets/e1d9adfa-bf01-41ea-87f2-d5b5df16ddf0" />
 
@@ -16,16 +16,20 @@ Growth media included:
 - Blood Agar
 
 More recipes will be added in the future.
-# For Linux & macOS:
+### For Linux & macOS:
 - Run "chmod +x" first(replace 0.x.x with your version).
 ```
 sudo chmod +x biobatch_linux_0.x.x
 ``` 
 - To run BioBatch natively, move it to bin folder by executing the following command:
 ```
-sudo mv biobatch_macos_0.x.x /usr/local/bin/
+sudo mv biobatch_macos_0.x.x /usr/local/bin/biobatch
 ```
-# For Windows:
+- Then run it.
+```
+biobatch
+```
+### For Windows:
 - Move "biobatch_windows_0.x.x.exe" to C:\Windows\System32\ or add to PATH.
 > [!IMPORTANT]
 > If any bugs or wrong information are encountered, please message me at mikeph526@outlook.com
