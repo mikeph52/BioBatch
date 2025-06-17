@@ -39,6 +39,8 @@ biobatch
 
 
 ### Changelog:
+- 1.0.0:
+(https://github.com/mikeph52/BioBatch/issues/3#issue-3153684865) Final version released for macOS. About section added and menu errors fixed.
 - 0.16.0:
 (https://github.com/mikeph52/BioBatch/issues/2) Documentation for Blood Agar fixed.
 - 0.15.2:
