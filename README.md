@@ -15,7 +15,6 @@ Growth media included:
 - TB
 - Blood Agar
 
-More recipes will be added in the future.
 ### For Linux & macOS:
 - Run "chmod +x" first(replace 0.x.x with your version).
 ```
